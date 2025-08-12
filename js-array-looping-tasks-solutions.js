@@ -7,3 +7,16 @@ for (let i = 0; i < colors.length; i++) {
   reverseArr.unshift(colors[i]);
 }
 console.log(reverseArr);
+
+// Task 2 Solution
+
+const numbers = [12, 98, 5, 41, 23, 78, 46];
+
+const evenNumbers = [];
+
+for (let num of numbers) {
+  if (num % 2 === 0) {
+    evenNumbers.push(num);
+  }
+}
+console.log(evenNumbers);
