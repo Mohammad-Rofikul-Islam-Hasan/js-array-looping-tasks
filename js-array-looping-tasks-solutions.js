@@ -32,16 +32,26 @@ for (let name of names) {
 
 console.log(output);
 
-
 // Task 4 Solution
 
-const statement = 'I am a hard working person'
-const word = statement.split(' ');
+const statement = "I am a hard working person";
+const word = statement.split(" ");
 
 let reverseStatement = [];
 
 for (let i of word) {
- reverseStatement.unshift(i);
+  reverseStatement.unshift(i);
 }
-reverseStatement = reverseStatement.join(' ');
+reverseStatement = reverseStatement.join(" ");
 console.log(reverseStatement);
+
+// Task 5 Solution
+
+const arr = [1, 2, 3];
+
+let newArr = [...arr];
+
+newArr[0] = 99;
+
+console.log(arr);
+console.log(newArr);
