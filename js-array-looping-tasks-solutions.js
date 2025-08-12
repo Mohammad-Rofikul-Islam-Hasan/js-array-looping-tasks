@@ -66,3 +66,16 @@ const arrOfObj = [
 for (let i = 0; i < arrOfObj.length; i++) {
   console.log(`${arrOfObj[i].name} scoreed ${arrOfObj[i].marks}`);
 }
+
+// Task 7 Solution
+
+let arrOfArr = [
+  [1, 2],
+  [3, 4],
+  [5, 6]
+]
+
+arrOfArr[1][0] = 99;
+
+console.log(arrOfArr)
+
