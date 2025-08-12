@@ -55,3 +55,14 @@ newArr[0] = 99;
 
 console.log(arr);
 console.log(newArr);
+
+// Task 6 Solution
+
+const arrOfObj = [
+  { name: "John", marks: 85 },
+  { name: "Alice", marks: 90 },
+];
+
+for (let i = 0; i < arrOfObj.length; i++) {
+  console.log(`${arrOfObj[i].name} scoreed ${arrOfObj[i].marks}`);
+}
