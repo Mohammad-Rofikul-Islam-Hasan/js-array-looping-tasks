@@ -20,3 +20,15 @@ for (let num of numbers) {
   }
 }
 console.log(evenNumbers);
+
+
+// Task 3 Solution
+
+const names = ['Tom', 'Tim', 'Tin', 'Tik'];
+
+let output = "";
+for (let name of names ) {
+   output = output + name;
+}
+
+console.log(output)
