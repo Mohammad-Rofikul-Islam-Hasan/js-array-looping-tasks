@@ -21,14 +21,27 @@ for (let num of numbers) {
 }
 console.log(evenNumbers);
 
-
 // Task 3 Solution
 
-const names = ['Tom', 'Tim', 'Tin', 'Tik'];
+const names = ["Tom", "Tim", "Tin", "Tik"];
 
 let output = "";
-for (let name of names ) {
-   output = output + name;
+for (let name of names) {
+  output = output + name;
 }
 
-console.log(output)
+console.log(output);
+
+
+// Task 4 Solution
+
+const statement = 'I am a hard working person'
+const word = statement.split(' ');
+
+let reverseStatement = [];
+
+for (let i of word) {
+ reverseStatement.unshift(i);
+}
+reverseStatement = reverseStatement.join(' ');
+console.log(reverseStatement);
